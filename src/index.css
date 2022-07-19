@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/antd/4.21.5/antd.min.css");
+
+@font-face {
+    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
+    font-family: 'VisbyRoundCF-Regular';
+    src: local('VisbyRoundCF-Regular'), url(./assets/VisbyRoundCF-Regular.woff) format('woff');
+    font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
+    font-family: 'VisbyRoundCF-DemiBold';
+    src: local('VisbyRoundCF-DemiBold'), url(./assets/VisbyRoundCF-DemiBold.woff) format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
+    font-family: 'VisbyRoundCF-Heavy';
+    src: local('VisbyRoundCF-Heavy'), url(./assets/VisbyRoundCF-Heavy.woff) format('woff');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'VisbyRoundCF-Regular';
+    margin: 0px;
+}
+
+.form-title { 
+    font-size: 42px; 
+    font-family: 'VisbyRoundCF-Heavy'; 
+    letter-spacing: 0.5px; 
+    color: #e8e8e8; 
+    padding-bottom: 12px; 
+}
+
+.form-subtitle {
+    font-size: 18px;
+    font-family: 'VisbyRoundCF-Regular';
+    letter-spacing: 0.5px;
+    color: #afafaf;
+    padding-bottom: 24px;
+}
+
+.background-image {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-gradient-dark {
+    width: 100vw;
+    height: 100%;
+    overflow-y: scroll;
+    background: linear-gradient(66deg, rgb(40,43,54) 0%, rgb(40,43,54) 50%, rgba(40,43,54,0.8) 100%);
+    /* ^ Built with https://cssgradient.io/ */
+}
+
+.background-gradient-light {
+    width: 100vw;
+    height: 100%;
+    overflow-y: scroll;
+    background: linear-gradient(66deg, rgba(150, 157, 166, 0.9) 0%, rgba(150, 157, 166, 0.8) 50%, rgba(150,157,166,0.7) 100%);
+    /* ^ Built with https://cssgradient.io/ */
 }

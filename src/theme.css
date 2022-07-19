@@ -1,0 +1,64 @@
+.ce-chat-list { background-color: rgb(40,43,54) !important; }
+.ce-chat-form { background-color: rgb(40,43,54) !important; padding-bottom: 14px !important;  }
+.ce-chat-form-title { color: white !important; font-family: 'VisbyRoundCF-DemiBold' !important; }
+.ce-default-button { border: none !important; background-color: rgb(40,43,54) !important; color: white !important; }
+.ce-text-input { background-color: rgb(40,43,54) !important; color: white !important; font-family: 'VisbyRoundCF-DemiBold' !important; border: 2px solid #fa541c !important; border-radius: 8px !important; }
+.ce-text-input::placeholder { color: white !important; }
+.ce-chat-card { border: 1px solid #3e404b !important; background-color: #3e404b !important; margin: 10px 12px !important; height: 68px !important; }
+.ce-chat-card:hover { border: 1px solid #1890ff !important; box-shadow: rgb(24 144 255 / 35%) 0px 2px 7px !important; }
+.ce-chat-card-loading { height: 10px !important; }
+.ce-chat-card-title-loading { top: 16px !important; }
+.ce-active-chat-card { border: 1px solid #1890ff !important; background-color: #1890ff !important; box-shadow: rgb(24 144 255 / 35%) 0px 2px 7px !important; color: white !important; }
+.ce-chat-card-title { color: white !important; font-family: 'VisbyRoundCF-DemiBold' !important; }
+.ce-chat-card-subtitle { font-family: 'VisbyRoundCF-DemiBold' !important; font-size: 12px !important; bottom: 16px !important; width: calc(70% - 44px) !important; color: #c5c5c5 !important; }
+.ce-chat-card-time-stamp { font-family: 'VisbyRoundCF-DemiBold' !important; font-size: 12px !important; bottom: 16px !important; }
+.ce-chat-card-unread { top: calc((68px - 12px) / 2) !important; }
+.ce-avatar-status { border: 2px solid rgb(40,43,54) !important; width: 10px !important; height: 10px !important; }
+.ce-chat-card-avatar { top: 12px !important; }
+.ce-chat-feed-column { border: none !important; }
+.ce-chat-feed { background-color: rgb(40,43,54) !important; }
+.ce-message-list { margin-top: 24px !important; margin-left: 12px !important; margin-right: 12px !important; padding: 0px 3.3vw !important; background: linear-gradient(0deg, rgba(62,64,75,1) 0%, rgba(62,64,75,1) 75%, rgba(40,43,54,1) 100%); border-radius: 8px 8px 0px 0px !important; height: calc((100% - 85px) - 72px - 24px - 12px) !important; }
+.ce-message-date-text { font-family: 'VisbyRoundCF-DemiBold' !important; color: rgb(153, 153, 153) !important; font-size: 14px !important; letter-spacing: -1px; }
+.ce-my-message-body { font-family: 'VisbyRoundCF-Regular' !important; font-size: 12px !important; padding: 15px !important; }
+.ce-my-message-timestamp { font-family: 'VisbyRoundCF-DemiBold' !important; font-size: 12px !important; padding: 15px !important; margin-right: 0px !important; letter-spacing: -1px; }
+
+.ce-their-message-body { font-family: 'VisbyRoundCF-Regular' !important; font-size: 12px !important; padding: 15px !important; background-color: #434756 !important; color: white !important; }
+.ce-their-message-timestamp { font-family: 'VisbyRoundCF-DemiBold' !important; font-size: 12px !important; padding: 15px !important; margin-left: 0px !important; letter-spacing: -1px; }
+
+.ce-their-message-timestamp { color: rgb(241, 240, 240) !important; letter-spacing: -1px; }
+.ce-their-message-sender-username { color: #999 !important; }
+.ce-message-file { background-color: #434758 !important; color: #c5c5c5 !important; border-radius: 8px !important; }
+.ce-message-image { background-color: #434758 !important; color: #c5c5c5 !important; border-radius: 8px !important; padding: 0px !important; max-width: 124px !important; max-height: 124px !important; }
+
+.ce-mobile-chat-list-button { top: 32px !important; left: 0px !important; }
+.ce-mobile-chat-settings-button { display: none !important; }
+
+.ce-custom-chat-header { display: inline-block; position: relative; width: 100%; height: 86px; }
+.ce-custom-header-text { display: inline-block; max-width: 50%; padding-left: 14px; position: relative; top: 21px; }
+.ce-custom-header-title { color: white; font-size: 13px; font-family: 'VisbyRoundCF-DemiBold'; }
+.ce-custom-header-subtitle { color: rgb(153, 153, 153); font-size: 11px; }
+
+.ce-custom-header-icon-wrapper { display: inline-block; max-width: 50%; position: relative; top: 36px; float: right;  }
+.ce-custom-header-icon { margin-right: 12px; cursor: pointer; color: rgb(153, 153, 153); transition: all 0.66s ease; }
+.ce-custom-header-icon:hover { color: rgb(24, 144, 255) !important; }
+
+.ce-custom-message-form { position: relative; height: 68px; margin-left: 12px; margin-right: 12px; width: calc(100% - 12px - 12px); border-radius: 0px 0px 8px 8px; background-color: #3e404b; }
+.ce-custom-message-input { position: absolute; top: 12px; left: 3.3vw; width: calc(100% - 3.3vw - 3.3vw - 14px - 15px - 15px); box-shadow: rgba(24, 144, 255, 0.35) 0px 2px 7px; border: 1px solid rgb(24, 144, 255); outline: none; background-color: #434756; color: white; font-size: 12px; padding: 0px 15px; font-family: 'VisbyRoundCF-DemiBold'; height: 36px; border-radius: 8px; transition: all .44s ease; }
+.ce-custom-message-input:focus { box-shadow: rgba(64, 169, 255, 0.35) 0px 2px 7px; border: 1px solid #40a9ff; }
+.ce-custom-message-input::placeholder { color: #e1e1e1; }
+.ce-custom-send-button { cursor: pointer; background-color: rgb(24, 144, 255); border: 1px solid rgb(24, 144, 255); width: 36px; height: 36px; border-radius: 8px; color: white; box-shadow: rgba(24, 144, 255, 0.35) 0px 5px 15px; position: absolute; top: 12px; right: 3.3vw; transition: all .44s ease; }
+.ce-custom-send-button:hover { background-color: #40a9ff; }
+
+.ce-sidebar-menu { position: absolute; top: 30vh; }
+.ce-sidebar-icon { width: 6vw; padding-top: 12px; padding-bottom: 12px; font-size: 16px; color: rgb(153, 153, 153) !important; }
+.ce-sidebar-icon-active { color: rgb(24, 144, 255) !important; border-left: 2px solid rgb(24, 144, 255); }
+.sidebar-avatar { position: absolute !important; bottom: 66px; left: calc(50% - 22px); border: 1px solid rgb(24, 144, 255); box-shadow: rgb(24 144 255 / 35%) 0px 2px 7px; }
+.signout-icon { cursor: pointer; color: rgb(153, 153, 153) !important; transition: all 0.66s ease; font-size: 18px; position: absolute; bottom: 24px; left: calc(50% - 9px); }
+.signout-icon:hover { color: #1890ff !important; }
+
+.ce-chat-form-autocomplete { width: calc(100% - 12px - 12px) !important; margin: 0px 12px !important; padding-top: 28px !important; padding-bottom: 32px !important; }
+.ant-input-lg { background-color: rgb(40,43,54) !important; outline: none !important; border: 1px solid rgb(40,43,54) !important; color: white !important; border-radius: 8px 0px 0px 8px !important; }
+.ant-input-lg::placeholder { color: white !important; font-family: 'VisbyRoundCF-DemiBold' !important; padding-top: 12px !important; }
+.ant-input-search-button { background-color: rgb(40,43,54) !important; border: none !important; outline: none !important; margin-left: 3px !important; border-radius: 0px 8px 8px 0px !important; }
+.ant-input-search-button:hover { background-color: rgb(40,43,54) !important; }
+.ant-input-group-addon { background-color: rgb(40,43,54) !important; }
