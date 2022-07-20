@@ -39,7 +39,7 @@
 .ce-custom-header-subtitle { color: rgb(153, 153, 153); font-size: 11px; }
 
 .ce-custom-header-icon-wrapper { display: inline-block; max-width: 50%; position: relative; top: 36px; float: right;  }
-.ce-custom-header-icon { margin-right: 12px; cursor: pointer; color: rgb(153, 153, 153); transition: all 0.66s ease; }
+.ce-custom-header-icon { margin-right: 12px; cursor: pointer; color: rgb(153, 153, 153) !important; transition: all 0.66s ease; }
 .ce-custom-header-icon:hover { color: rgb(24, 144, 255) !important; }
 
 .ce-custom-message-form { position: relative; height: 68px; margin-left: 12px; margin-right: 12px; width: calc(100% - 12px - 12px); border-radius: 0px 0px 8px 8px; background-color: #3e404b; }
