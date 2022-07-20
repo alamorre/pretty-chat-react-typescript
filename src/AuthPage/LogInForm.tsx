@@ -2,9 +2,9 @@ import { useState, useContext } from "react";
 
 import axios from "axios";
 
-import TextInput from "../components/TextInput";
-import Button from "../components/Button";
-import Link from "../components/Link";
+import TextInput from "./components/TextInput";
+import Button from "./components/Button";
+import Link from "./components/Link";
 
 import { Context } from "../hooks/context";
 import { projectId } from "../hooks/constants";

@@ -8,10 +8,10 @@ import { useIsMobile } from "../hooks/isMobile";
 import { Context } from "../hooks/context";
 import { privateKey } from "../hooks/constants";
 
-import TextInput from "../components/TextInput";
-import PhotoInput from "../components/PhotoInput";
-import Button from "../components/Button";
-import Link from "../components/Link";
+import TextInput from "./components/TextInput";
+import PhotoInput from "./components/PhotoInput";
+import Button from "./components/Button";
+import Link from "./components/Link";
 
 interface SignUpFormProps {
   onHasAccount: () => void;
