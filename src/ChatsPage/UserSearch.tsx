@@ -6,7 +6,7 @@ import { PersonObject, Avatar } from "react-chat-engine-advanced";
 
 import axios from "axios";
 
-import { privateKey, projectId } from "../hooks/constants";
+import { privateKey, projectId } from "../functions/constants";
 
 interface CustomChatFormProps {
   username: string;

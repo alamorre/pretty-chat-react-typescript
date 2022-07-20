@@ -14,11 +14,11 @@ import {
 
 import axios from "axios";
 
-import { nowTimeStamp } from "../hooks/dates";
-import { getOtherUser } from "../hooks/getOtherUser";
-import { useIsMobile } from "../hooks/isMobile";
+import { nowTimeStamp } from "../functions/dates";
+import { getOtherUser } from "../functions/getOtherUser";
+import { useIsMobile } from "../functions/isMobile";
 
-import { privateKey, projectId } from "../hooks/constants";
+import { privateKey, projectId } from "../functions/constants";
 import { useState } from "react";
 
 interface CustomChatHeaderProps extends ChatHeaderProps {

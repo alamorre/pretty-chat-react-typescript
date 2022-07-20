@@ -2,8 +2,8 @@ import { useContext, CSSProperties } from "react";
 
 import valley from "../assets/valley.jpeg";
 
-import { useIsMobile } from "../hooks/isMobile";
-import { Context } from "../hooks/context";
+import { useIsMobile } from "../functions/isMobile";
+import { Context } from "../functions/context";
 
 import {
   MultiChatWindow,
@@ -22,7 +22,7 @@ import UserSearch from "./UserSearch";
 import ChatCard from "./ChatCard";
 import ChatHeader from "./ChatHeader";
 
-import { projectId } from "../hooks/constants";
+import { projectId } from "../functions/constants";
 
 const ChatsPage = () => {
   // Hooks

@@ -4,8 +4,8 @@ import { CaretUpFilled } from "@ant-design/icons";
 
 import { MessageObject, MessageFormProps } from "react-chat-engine-advanced";
 
-import { nowTimeStamp } from "../hooks/dates";
-import { Context } from "../hooks/context";
+import { nowTimeStamp } from "../functions/dates";
+import { Context } from "../functions/context";
 
 const MessageForm = (props: MessageFormProps) => {
   const [text, setText] = useState<string>("");

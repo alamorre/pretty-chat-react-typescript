@@ -4,9 +4,9 @@ import axios from "axios";
 
 import { PersonObject } from "react-chat-engine-advanced";
 
-import { useIsMobile } from "../hooks/isMobile";
-import { Context } from "../hooks/context";
-import { privateKey } from "../hooks/constants";
+import { useIsMobile } from "../functions/isMobile";
+import { Context } from "../functions/context";
+import { privateKey } from "../functions/constants";
 
 import TextInput from "./components/TextInput";
 import PhotoInput from "./components/PhotoInput";

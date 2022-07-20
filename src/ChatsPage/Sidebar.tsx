@@ -9,7 +9,7 @@ import {
 
 import { Avatar } from "react-chat-engine-advanced";
 
-import { Context } from "../hooks/context";
+import { Context } from "../functions/context";
 
 const Sidebar = () => {
   const { user, setUser } = useContext(Context);

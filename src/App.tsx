@@ -1,9 +1,11 @@
 import { useContext } from "react";
 
-import { Context } from "./hooks/context";
+import { Context } from "./functions/context";
 
 import AuthPage from "./AuthPage";
 import ChatsPage from "./ChatsPage";
+
+import "./app.css";
 
 function App() {
   const { user } = useContext(Context);

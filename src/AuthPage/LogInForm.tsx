@@ -6,8 +6,8 @@ import TextInput from "./components/TextInput";
 import Button from "./components/Button";
 import Link from "./components/Link";
 
-import { Context } from "../hooks/context";
-import { projectId } from "../hooks/constants";
+import { Context } from "../functions/context";
+import { projectId } from "../functions/constants";
 import { PersonObject } from "react-chat-engine-advanced";
 
 interface LogInFormProps {
