@@ -62,3 +62,5 @@
 .ant-input-search-button { background-color: rgb(40,43,54) !important; border: none !important; outline: none !important; margin-left: 3px !important; border-radius: 0px 8px 8px 0px !important; }
 .ant-input-search-button:hover { background-color: rgb(40,43,54) !important; }
 .ant-input-group-addon { background-color: rgb(40,43,54) !important; }
+
+.ce-empty-settings { background-color: #282b36 !important; width: 3vw; height: 100vh; }

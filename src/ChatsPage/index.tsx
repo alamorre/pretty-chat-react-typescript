@@ -109,15 +109,7 @@ const ChatsPage = () => {
               renderMessageForm={(props: MessageFormProps) => (
                 <MessageForm {...props} />
               )}
-              renderChatSettings={() => (
-                <div
-                  style={{
-                    backgroundColor: "#282b36",
-                    width: "3vw",
-                    height: "100vh",
-                  }}
-                />
-              )}
+              renderChatSettings={() => <div className="ce-empty-settings" />}
               style={{ height: "100%" }}
             />
           </div>
